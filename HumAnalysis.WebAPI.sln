@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumAnalysis.WebAPI", "HumAnalysis.WebAPI\HumAnalysis.WebAPI.csproj", "{117D8DEE-271E-45B3-9BDB-23A644494AB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{331E5283-90F9-43DC-A6F2-F0CF6AD3C600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanAnalysis.DAL", "HumanAnalysis.DAL\HumanAnalysis.DAL.csproj", "{01F74896-3ED7-42B4-99DE-54DE5F556A28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5833ECA5-D15E-42CC-B079-0BC7ACD81C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumAnalysis.Domain", "HumAnalysis.Domain\HumAnalysis.Domain.csproj", "{C4A5B011-63C6-493A-9F44-5B1E66FA5E4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{B14338FC-6D92-43D6-AAEB-45677D8AEDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumAnalysis.Service", "HumAnalysis.Service\HumAnalysis.Service.csproj", "{889D438F-AF4B-4E38-8E60-651AAE0E585D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{117D8DEE-271E-45B3-9BDB-23A644494AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117D8DEE-271E-45B3-9BDB-23A644494AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117D8DEE-271E-45B3-9BDB-23A644494AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117D8DEE-271E-45B3-9BDB-23A644494AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F74896-3ED7-42B4-99DE-54DE5F556A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F74896-3ED7-42B4-99DE-54DE5F556A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F74896-3ED7-42B4-99DE-54DE5F556A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F74896-3ED7-42B4-99DE-54DE5F556A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A5B011-63C6-493A-9F44-5B1E66FA5E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A5B011-63C6-493A-9F44-5B1E66FA5E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A5B011-63C6-493A-9F44-5B1E66FA5E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A5B011-63C6-493A-9F44-5B1E66FA5E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889D438F-AF4B-4E38-8E60-651AAE0E585D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889D438F-AF4B-4E38-8E60-651AAE0E585D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889D438F-AF4B-4E38-8E60-651AAE0E585D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889D438F-AF4B-4E38-8E60-651AAE0E585D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01F74896-3ED7-42B4-99DE-54DE5F556A28} = {331E5283-90F9-43DC-A6F2-F0CF6AD3C600}
+		{C4A5B011-63C6-493A-9F44-5B1E66FA5E4B} = {5833ECA5-D15E-42CC-B079-0BC7ACD81C10}
+		{889D438F-AF4B-4E38-8E60-651AAE0E585D} = {B14338FC-6D92-43D6-AAEB-45677D8AEDF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2947A67E-D07C-41E4-A76A-5457D3448AE8}
+	EndGlobalSection
+EndGlobal
